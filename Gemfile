@@ -12,6 +12,6 @@ gem 'rack-jekyll'
 gem 'rack-ssl-enforcer'
 gem 'puma'
 
-gem 'rake'
+gem 'rake', '>= 12.3.3'
 
 gem 'html-proofer', '~> 3.0'
