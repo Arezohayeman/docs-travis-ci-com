@@ -2,13 +2,13 @@ source 'https://rubygems.org'
 
 ruby '2.3.1' if ENV.key?('DYNO')
 
-gem 'jekyll', '>=3.1.6'
+gem 'jekyll', '>= 3.9.0'
 gem 'rdiscount', '>=2.2.0.1'
 
-gem 'jekyll-redirect-from'
+gem 'jekyll-redirect-from', '>= 0.10.0'
 gem 'jekyll-paginate'
 
-gem 'rack-jekyll'
+gem 'rack-jekyll', '>= 0.4.5'
 gem 'rack-ssl-enforcer'
 gem 'puma'
 
